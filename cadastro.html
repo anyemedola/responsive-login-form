@@ -4,21 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
-    <title>Login Form</title>
+    <title>Sign Up Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main class="container">
-        <h2>Login</h2>
+        <h2>Sign Up</h2>
         <form action="">
             <div class="input-field">
-                <input type="text" name="username" id="username"
-                    placeholder="Enter Your Username">
+                <input type="text" name="name" id="name"
+                    placeholder="Name">
                 <div class="underline"></div>
             </div>
             <div class="input-field">
+                <input type="text" name="username" id="username"
+                    placeholder="Choose a Username">
+                <div class="underline"></div>
+            </div><br/>
+            <div class="input-field">
+                <input type="email" name="email" id="email"
+                    placeholder="Email">
+                <div class="underline"></div>
+            </div><br/>
+            <div class="input-field">
                 <input type="password" name="password" id="password"
-                    placeholder="Enter Your Password">
+                    placeholder="Choose a Password">
                 <div class="underline"></div>
             </div>
 
@@ -31,18 +41,18 @@
                 <div class="social-field twitter">
                     <a href="#">
                         <i class="fab fa-twitter"></i>
-                        Sign In with Twitter
+                        Sign Up with Twitter
                     </a>
                 </div>
                 <div class="social-field facebook">
                     <a href="#">
                         <i class="fab fa-facebook-f"></i>
-                        Sign In with Facebook
+                        Sign Up with Facebook
                     </a>
                 </div>
             </div>
             <br/>
-            <span>Don't have a account? <a href="cadastro.html" style="color: #8e54e9">Sign Up</a></span>
+            <span>Already have a account? <a href="index.html" style="color: #8e54e9">Sign In</a></span>
         </div>
     </main>
 </body>
